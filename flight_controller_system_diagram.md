@@ -16,49 +16,84 @@ Selected parts:
 ## Complete Labeled System Diagram
 
 ```mermaid
-flowchart TB
-    BAT["2S-6S Battery / XT30-XT60 / ESC VBAT"] -- "VBAT_RAW and GND" --> INPROT["Input Protection\nFuse/TVS/reverse-protection option"]
-    INPROT -- "Protected VBAT for power conversion" --> BUCK["2S-6S to 5V Buck Regulator\nwide-input, >=2A recommended"]
-    INPROT -- "VBAT_SENSE through resistor divider + RC filter" --> MCU_ADC["STM32H743VIT6 ADC pins"]
-    BUCK -- "5V_FC rail" --> LDO["TLV755P33\n5V to 3.3V LDO"]
-    BUCK -- "5V_PERIPH rail" --> RXJST["4-pin Receiver JST\n5V, GND, UART_RX, UART_TX"]
-    BUCK -- "5V_PERIPH or switched 5V" --> GPSJST["GPS JST connector only\n5V, GND, UART_TX, UART_RX, SCL, SDA"]
-    BUCK -- "5V_PERIPH or VTX_5V" --> VTXJST["VTX JST\n5V, GND, VTX UART, VIDEO_OUT"]
-    BUCK -- "5V analog/video supply with local filtering" --> OSD["AT7456E Analog OSD"]
-    LDO -- "3V3 digital/sensor rail" --> MCU["STM32H743VIT6\nmain flight MCU"]
-    LDO -- "3V3 sensor rail" --> BMI["BMI270\nSPI gyro/accelerometer"]
-    LDO -- "3V3 sensor rail" --> BMP["BMP390\nbarometer"]
-    LDO -- "3V3 flash rail" --> FLASH["W25Q128JV\nBlackbox flash"]
+flowchart LR
+    subgraph MCU_CORE2["Flight Controller Core"]
+        MCU2["STM32H743VIT6"]
+    end
+    subgraph CONNECTORS["External Connectors"]
+        RX["Receiver JST<br/>ELRS/CRSF UART"]
+        GPS["GPS JST<br/>UART + I2C, future use"]
+        VTXJ["VTX JST<br/>SmartAudio/Tramp UART"]
+        ESC["4-in-1 ESC JST<br/>M1-M4 DShot, Telem, Current"]
+    end
+    subgraph USBBLK["USB"]
+        USBC["USB-C Connector"]
+        ESD["TPD2EUSB30<br/>ESD Protection"]
+    end
+    subgraph DEBUGBLK["Debug and Extras"]
+        SWD["SWD Pads"]
+        BOOT["BOOT0 Pads"]
+        AUX["Buzzer / LED / Status GPIOs"]
+    end
 
-    MCU -- "SPI1 SCK/MISO/MOSI, BMI_CS" --> BMI
-    BMI -- "BMI_INT1 data-ready interrupt" --> MCU
-    MCU -- "I2C1 SCL/SDA or SPI CS/SCK/MISO/MOSI" --> BMP
-    BMP -- "optional pressure data interrupt" --> MCU
-    MCU -- "SPI2 SCK/MISO/MOSI, FLASH_CS" --> FLASH
-    MCU -- "SPI2 SCK/MISO/MOSI, OSD_CS, OSD_RESET" --> OSD
+    RX -->|UART| MCU2
+    GPS -->|UART + I2C| MCU2
+    VTXJ -->|UART| MCU2
+    ESC -->|DShot + Telem + Current| MCU2
+    USBC --> ESD
+    ESD -->|D+/D-| MCU2
+    SWD --> MCU2
+    BOOT --> MCU2
+    MCU2 --> AUX
+```
 
-    USB["USB-C device connector\nVBUS, D+, D-, CC1, CC2, GND"] -- "USB D+ and D- protected pair" --> ESD["TPD2EUSB30\nUSB ESD diode"]
-    ESD -- "USB_DM and USB_DP" --> MCU
-    USB -- "VBUS detect to MCU, CC1/CC2 5.1k pulldowns to GND" --> MCU
+```mermaid
+flowchart LR
+    subgraph MCU_CORE["Flight Controller Core"]
+        MCU["STM32H743VIT6"]
+    end
+    subgraph SENSORS["Sensor Bus"]
+        BMI["BMI270<br/>Gyro/Accel - SPI1"]
+        BMP["BMP390<br/>Barometer - I2C1/SPI"]
+    end
+    subgraph STORAGE_OSD["Storage and Video"]
+        FLASH["W25Q128JV<br/>Blackbox - SPI2"]
+        OSD["AT7456E<br/>Analog OSD - SPI2"]
+    end
+    subgraph VIDEO["Video Path"]
+        CAM["Camera In"]
+        VTXOUT["Video Out to VTX"]
+    end
 
-    ESCJST["4-in-1 ESC JST\nGND, VBAT, CURRENT, M1-M4, ESC_TELEM"] -- "DShot motor signals M1-M4" --> MCU
-    ESCJST -- "ESC telemetry UART RX" --> MCU
-    ESCJST -- "CURRENT analog signal through RC filter" --> MCU_ADC
-    ESCJST -- "VBAT_RAW shared battery node" --> INPROT
+    MCU <-->|SPI1 + INT1| BMI
+    MCU <-->|I2C1 or SPI| BMP
+    MCU -->|SPI2 FLASH_CS| FLASH
+    MCU -->|SPI2 OSD_CS/RESET| OSD
+    CAM --> OSD
+    OSD --> VTXOUT
+```
+```mermaid
+flowchart LR
+    subgraph INPUT["Battery Input"]
+        BAT["2S-6S Battery<br/>XT30/XT60"]
+        PROT["Input Protection<br/>Fuse / TVS / Reverse-Block"]
+    end
+    subgraph CONVERT["Power Conversion"]
+        BUCK["Wide-Input Buck<br/>2S-6S to 5V, >=2A"]
+        LDO["TLV755P33<br/>5V to 3.3V LDO"]
+    end
+    subgraph RAILS["Distribution Rails"]
+        R5["5V_PERIPH Rail<br/>RX / GPS / VTX / LED / OSD"]
+        R33["3V3 Rail<br/>MCU / Sensors / Flash"]
+        VSENSE["VBAT_SENSE<br/>to MCU ADC"]
+    end
 
-    RXJST -- "CRSF/ELRS UART TX/RX" --> MCU
-    GPSJST -- "future external GPS UART TX/RX" --> MCU
-    GPSJST -- "optional external I2C SCL/SDA" --> MCU
-    VTXJST -- "SmartAudio/Tramp/MSP UART TX/RX" --> MCU
-
-    CAMJST["Camera JST\n5V/GND/VIDEO_IN"] -- "analog camera video input" --> OSD
-    OSD -- "OSD-overlaid analog VIDEO_OUT" --> VTXJST
-
-    MCU -- "low-side buzzer GPIO" --> BUZZ["Buzzer MOSFET + buzzer pads"]
-    MCU -- "WS2812 data GPIO" --> LED["LED strip pad\n5V, GND, DATA"]
-    MCU -- "status GPIOs" --> STATUS["Status LEDs"]
-    BOOT["BOOT0 button / pads"] -- "force DFU boot mode" --> MCU
-    SWD["SWD pads\n3V3, GND, SWDIO, SWCLK, NRST"] -- "programming and debug" --> MCU
+    BAT --> PROT
+    PROT --> BUCK
+    PROT -.-> VSENSE
+    BUCK --> LDO
+    BUCK --> R5
+    LDO --> R33
 ```
 
 ## Connection Table
