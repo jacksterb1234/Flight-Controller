@@ -423,7 +423,7 @@
         "uuid": "75d72a00-cae4-4ac3-9627-df76ad5ec3a2"
       }
     ],
-    "used_designators": "#PWR2,#PWR4-10,#PWR12-13,#PWR15,#PWR25,U4,R1-6,IC1,C1-4,Y1-2",
+    "used_designators": "U3,U5-7,C5,C7,C10-32,L1,#PWR3,#PWR16-19,#PWR21,#PWR26-82,J1-14,R2,R7-14,XTAL1,SW1,D1,NT1-4",
     "variants": [
       {
         "name": "Backpack"
@@ -446,10 +446,6 @@
     [
       "0614acdb-9244-4c03-8409-caeb9c64dc33",
       "Peripherals"
-    ],
-    [
-      "5a639ac3-1d15-4258-993e-f1f83613fba6",
-      "Power"
     ]
   ],
   "text_variables": {},
