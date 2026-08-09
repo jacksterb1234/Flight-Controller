@@ -8194,7 +8194,7 @@
 		)
 		(uuid "0771019b-70aa-4a05-b8b3-97ab93bf93a4")
 	)
-	(hierarchical_label "BMI_SPI_CS"
+	(hierarchical_label "IMU_SPI_CS"
 		(shape input)
 		(at 76.2 49.53 0)
 		(effects

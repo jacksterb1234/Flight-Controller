@@ -699,7 +699,7 @@
         "uuid": "a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d"
       }
     ],
-    "used_designators": "J1-2,J6-19,IC1-2,R1-24,#FLG1-6,L1-2,#PWR1-148,A1-2,C1-64,NT1-8,SW1-2,U1-12,XTAL1-2,Y2-3",
+    "used_designators": "",
     "variants": [
       {
         "name": "Backpack"

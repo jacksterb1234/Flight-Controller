@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 54.61 113.03) (xy 93.98 113.03)
+			(xy 54.61 115.57) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 118.11) (xy 93.98 118.11)
+			(xy 54.61 120.65) (xy 93.98 120.65)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 148.59) (xy 93.98 148.59)
+			(xy 54.61 151.13) (xy 93.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 143.51) (xy 93.98 143.51)
+			(xy 54.61 146.05) (xy 93.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 128.27) (xy 93.98 128.27)
+			(xy 54.61 130.81) (xy 93.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 135.89) (xy 93.98 135.89)
+			(xy 54.61 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 146.05) (xy 93.98 146.05)
+			(xy 54.61 148.59) (xy 93.98 148.59)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 93.98 102.87)
+			(xy 54.61 105.41) (xy 93.98 105.41)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 123.19) (xy 93.98 123.19)
+			(xy 54.61 125.73) (xy 93.98 125.73)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 140.97) (xy 93.98 140.97)
+			(xy 54.61 143.51) (xy 93.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 125.73) (xy 93.98 125.73)
+			(xy 54.61 128.27) (xy 93.98 128.27)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 93.98 130.81)
+			(xy 54.61 133.35) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 115.57) (xy 93.98 115.57)
+			(xy 54.61 118.11) (xy 93.98 118.11)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 138.43) (xy 93.98 138.43)
+			(xy 54.61 140.97) (xy 93.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 105.41) (xy 93.98 105.41)
+			(xy 54.61 107.95) (xy 93.98 107.95)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 93.98 110.49)
+			(xy 54.61 113.03) (xy 93.98 113.03)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 120.65) (xy 93.98 120.65)
+			(xy 54.61 123.19) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 133.35) (xy 93.98 133.35)
+			(xy 54.61 135.89) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +187,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 107.95) (xy 93.98 107.95)
+			(xy 54.61 110.49) (xy 93.98 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10526,7 +10526,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 54.61 102.87 0)
+			(at 54.61 105.41 0)
 			(uuid "880fae95-ad5f-4dcb-b5e5-793d7b1e74f1")
 			(effects
 				(font
@@ -10536,7 +10536,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 54.61 105.41 0)
+			(at 54.61 107.95 0)
 			(uuid "f7ff2281-705e-4275-956b-744a625b4958")
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 			)
 		)
 		(pin "+BATT" output
-			(at 54.61 107.95 0)
+			(at 54.61 110.49 0)
 			(uuid "56122fea-f99b-4f31-8d1c-19b183a17a8c")
 			(effects
 				(font
@@ -10556,7 +10556,7 @@
 			)
 		)
 		(pin "BB_SPI_CS" output
-			(at 54.61 110.49 0)
+			(at 54.61 113.03 0)
 			(uuid "6b3ff850-9f90-4f50-9c21-4cacd80b2d6c")
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 			)
 		)
 		(pin "IMU_INT" input
-			(at 54.61 113.03 0)
+			(at 54.61 115.57 0)
 			(uuid "65f243e5-a5ca-4d63-91eb-37f29f460fe4")
 			(effects
 				(font
@@ -10576,7 +10576,7 @@
 			)
 		)
 		(pin "IMU_SPI_CS" output
-			(at 54.61 115.57 0)
+			(at 54.61 118.11 0)
 			(uuid "0d2f740c-ef4c-4908-9783-cc9004a91e39")
 			(effects
 				(font
@@ -10586,7 +10586,7 @@
 			)
 		)
 		(pin "IMU_SPI_SCK" output
-			(at 54.61 118.11 0)
+			(at 54.61 120.65 0)
 			(uuid "a5e8e9d5-d0c1-47c3-84b1-2d7dfa6018b6")
 			(effects
 				(font
@@ -10596,7 +10596,7 @@
 			)
 		)
 		(pin "IMU_SPI_SDI" output
-			(at 54.61 120.65 0)
+			(at 54.61 123.19 0)
 			(uuid "6d08e587-e38c-4dd5-8065-bba06eb2b727")
 			(effects
 				(font
@@ -10606,7 +10606,7 @@
 			)
 		)
 		(pin "IMU_SPI_SDO" input
-			(at 54.61 123.19 0)
+			(at 54.61 125.73 0)
 			(uuid "98606bb8-fb83-44cc-97f2-a335ae9972b0")
 			(effects
 				(font
@@ -10616,7 +10616,7 @@
 			)
 		)
 		(pin "LPS_INT" input
-			(at 54.61 125.73 0)
+			(at 54.61 128.27 0)
 			(uuid "fac2d231-d625-4ec6-b918-149dae347359")
 			(effects
 				(font
@@ -10626,7 +10626,7 @@
 			)
 		)
 		(pin "LPS_SPI_CS" output
-			(at 54.61 128.27 0)
+			(at 54.61 130.81 0)
 			(uuid "08aef78c-7453-4768-a070-1259d61e7da7")
 			(effects
 				(font
@@ -10636,7 +10636,7 @@
 			)
 		)
 		(pin "OSD_LOS" input
-			(at 54.61 130.81 0)
+			(at 54.61 133.35 0)
 			(uuid "2abdd2c2-fa8d-4624-9785-ab2a2d279c00")
 			(effects
 				(font
@@ -10646,7 +10646,7 @@
 			)
 		)
 		(pin "OSD_SPI_CS" output
-			(at 54.61 133.35 0)
+			(at 54.61 135.89 0)
 			(uuid "020461f5-ba01-446c-a200-c803723722b6")
 			(effects
 				(font
@@ -10656,7 +10656,7 @@
 			)
 		)
 		(pin "OSD_VS" input
-			(at 54.61 135.89 0)
+			(at 54.61 138.43 0)
 			(uuid "ed077bf1-77a1-49f1-94c5-23b7bc190bde")
 			(effects
 				(font
@@ -10666,7 +10666,7 @@
 			)
 		)
 		(pin "SPI_CLK" output
-			(at 54.61 138.43 0)
+			(at 54.61 140.97 0)
 			(uuid "eda39dbe-65a3-4103-828a-6e931af44c28")
 			(effects
 				(font
@@ -10676,7 +10676,7 @@
 			)
 		)
 		(pin "SPI_SDI" output
-			(at 54.61 140.97 0)
+			(at 54.61 143.51 0)
 			(uuid "a9461536-794a-4207-b112-3264fcfee2bc")
 			(effects
 				(font
@@ -10686,7 +10686,7 @@
 			)
 		)
 		(pin "SPI_SDO" output
-			(at 54.61 143.51 0)
+			(at 54.61 146.05 0)
 			(uuid "3ea49194-31b7-44b5-b851-a8e804f175eb")
 			(effects
 				(font
@@ -10696,7 +10696,7 @@
 			)
 		)
 		(pin "VIDEO_IN" output
-			(at 54.61 146.05 0)
+			(at 54.61 148.59 0)
 			(uuid "5e2d9acb-0316-481e-ba73-9cc83959d005")
 			(effects
 				(font
@@ -10706,7 +10706,7 @@
 			)
 		)
 		(pin "VIDEO_OUT" input
-			(at 54.61 148.59 0)
+			(at 54.61 151.13 0)
 			(uuid "15ae0237-08f0-4134-a400-5d0475eb2555")
 			(effects
 				(font
@@ -10762,7 +10762,7 @@
 			)
 		)
 		(pin "+3V3" output
-			(at 93.98 102.87 180)
+			(at 93.98 105.41 180)
 			(uuid "183dbff0-c0a7-4eb4-a316-1b9376a9183b")
 			(effects
 				(font
@@ -10772,7 +10772,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 93.98 105.41 180)
+			(at 93.98 107.95 180)
 			(uuid "f0344c77-5215-429a-82ab-4a8b04106a05")
 			(effects
 				(font
@@ -10782,7 +10782,7 @@
 			)
 		)
 		(pin "+BATT" input
-			(at 93.98 107.95 180)
+			(at 93.98 110.49 180)
 			(uuid "9ed8c5e6-13d4-4f32-a471-9a0278e174aa")
 			(effects
 				(font
@@ -10792,7 +10792,7 @@
 			)
 		)
 		(pin "BB_SPI_CS" input
-			(at 93.98 110.49 180)
+			(at 93.98 113.03 180)
 			(uuid "1c646d73-a1a4-4e28-a28a-13213e2ec99e")
 			(effects
 				(font
@@ -10802,7 +10802,7 @@
 			)
 		)
 		(pin "BMI_SPI_CS" input
-			(at 93.98 113.03 180)
+			(at 93.98 115.57 180)
 			(uuid "c9b3deed-ffad-4d34-90a7-223d62d25e6b")
 			(effects
 				(font
@@ -10812,7 +10812,7 @@
 			)
 		)
 		(pin "IMU_INT" output
-			(at 93.98 115.57 180)
+			(at 93.98 118.11 180)
 			(uuid "28651a59-a42f-4649-8497-287a48def04d")
 			(effects
 				(font
@@ -10822,7 +10822,7 @@
 			)
 		)
 		(pin "IMU_SPI_SCK" input
-			(at 93.98 118.11 180)
+			(at 93.98 120.65 180)
 			(uuid "7f97ffc7-2be2-4363-9b27-ad9eb65ba314")
 			(effects
 				(font
@@ -10832,7 +10832,7 @@
 			)
 		)
 		(pin "IMU_SPI_SDI" input
-			(at 93.98 120.65 180)
+			(at 93.98 123.19 180)
 			(uuid "9a9eea7f-a990-429b-948d-5744ce21bcd3")
 			(effects
 				(font
@@ -10842,7 +10842,7 @@
 			)
 		)
 		(pin "IMU_SPI_SDO" output
-			(at 93.98 123.19 180)
+			(at 93.98 125.73 180)
 			(uuid "493c5454-d9f8-4619-a2b2-aa4f1665e3f9")
 			(effects
 				(font
@@ -10852,7 +10852,7 @@
 			)
 		)
 		(pin "LPS_INT" output
-			(at 93.98 125.73 180)
+			(at 93.98 128.27 180)
 			(uuid "ee65d1c3-2fea-431b-8c24-f80ff895276b")
 			(effects
 				(font
@@ -10862,7 +10862,7 @@
 			)
 		)
 		(pin "LPS_SPI_CS" input
-			(at 93.98 128.27 180)
+			(at 93.98 130.81 180)
 			(uuid "fd0cbc41-8c9e-447b-883a-94a3972b6604")
 			(effects
 				(font
@@ -10872,7 +10872,7 @@
 			)
 		)
 		(pin "OSD_LOS" output
-			(at 93.98 130.81 180)
+			(at 93.98 133.35 180)
 			(uuid "b3aef86c-2b6b-42b4-b1da-e783df2ca3b9")
 			(effects
 				(font
@@ -10882,7 +10882,7 @@
 			)
 		)
 		(pin "OSD_SPI_CS" input
-			(at 93.98 133.35 180)
+			(at 93.98 135.89 180)
 			(uuid "d53083be-70c9-44b9-9a8e-5ae9ee7bfe5c")
 			(effects
 				(font
@@ -10892,7 +10892,7 @@
 			)
 		)
 		(pin "OSD_VS" output
-			(at 93.98 135.89 180)
+			(at 93.98 138.43 180)
 			(uuid "197ef92e-f5ec-4d00-9779-a398780e4e35")
 			(effects
 				(font
@@ -10902,7 +10902,7 @@
 			)
 		)
 		(pin "SPI_SCK" input
-			(at 93.98 138.43 180)
+			(at 93.98 140.97 180)
 			(uuid "eddc0002-d5f0-44e2-8e93-61b9e46d3015")
 			(effects
 				(font
@@ -10912,7 +10912,7 @@
 			)
 		)
 		(pin "SPI_SDI" input
-			(at 93.98 140.97 180)
+			(at 93.98 143.51 180)
 			(uuid "7cb7e73f-614b-4e3d-ad72-2e12898d567d")
 			(effects
 				(font
@@ -10922,7 +10922,7 @@
 			)
 		)
 		(pin "SPI_SDO" output
-			(at 93.98 143.51 180)
+			(at 93.98 146.05 180)
 			(uuid "89e2e1ad-ee7e-4d2b-9e30-fe3cf4ae43ee")
 			(effects
 				(font
@@ -10932,7 +10932,7 @@
 			)
 		)
 		(pin "VIDEO_IN" input
-			(at 93.98 146.05 180)
+			(at 93.98 148.59 180)
 			(uuid "a13ac1f6-0ba7-4787-9913-444f63e5c513")
 			(effects
 				(font
@@ -10942,7 +10942,7 @@
 			)
 		)
 		(pin "VIDEO_OUT" output
-			(at 93.98 148.59 180)
+			(at 93.98 151.13 180)
 			(uuid "e9922753-9879-45cc-85e8-8c9af0715f64")
 			(effects
 				(font
