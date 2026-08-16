@@ -699,7 +699,7 @@
         "uuid": "a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d"
       }
     ],
-    "used_designators": "#PWR32-34,#PWR85-86,D1-5,R9-10,R15-17",
+    "used_designators": "#PWR19,#PWR32-35,#PWR85-89,D1-6,R7-10,R15-17,H1-4,U6,C10,C34",
     "variants": [
       {
         "name": "Backpack"
