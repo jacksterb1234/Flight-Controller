@@ -10558,7 +10558,7 @@
 		)
 		(uuid "68968b48-92bf-4455-b948-a4483d9688c1")
 	)
-	(label "3V3_LED"
+	(label "BATT_LED"
 		(at 158.75 102.87 90)
 		(effects
 			(font
@@ -12259,7 +12259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 102.87 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14630,7 +14630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 102.87 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -18912,7 +18912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 102.87 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -23399,7 +23399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 102.87 166.37 0)
 			(hide yes)
 			(show_name no)
