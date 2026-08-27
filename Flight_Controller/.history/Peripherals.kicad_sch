@@ -9742,6 +9742,12 @@
 		(uuid "5c4ae47c-96d3-4d5f-a1f7-8e68a5923e88")
 	)
 	(junction
+		(at 247.65 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eb93864-b314-4f9a-8bab-af6829839f32")
+	)
+	(junction
 		(at 30.48 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9818,12 +9824,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "884df4cf-c8e9-4bd0-8c26-de8af94f579f")
-	)
-	(junction
-		(at 247.65 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e3a3ce4-fabf-4011-a64b-e593160a158e")
 	)
 	(junction
 		(at 30.48 41.91)
@@ -10223,6 +10223,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 120.65) (xy 261.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb61d04-7852-4699-b8eb-6922a62788df")
+	)
+	(wire
+		(pts
 			(xy 99.06 27.94) (xy 99.06 30.48)
 		)
 		(stroke
@@ -10580,16 +10590,6 @@
 			(type default)
 		)
 		(uuid "4d85f9e9-9bc5-4cd5-818f-9becbc4ef341")
-	)
-	(wire
-		(pts
-			(xy 247.65 120.65) (xy 261.62 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51ced856-ae5d-4162-ab55-cda015a34308")
 	)
 	(wire
 		(pts
@@ -11670,16 +11670,6 @@
 			(justify left bottom)
 		)
 		(uuid "5cd2b04d-00f9-478e-b392-35288d8217d2")
-	)
-	(label ""
-		(at 257.81 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68968b48-92bf-4455-b948-a4483d9688c1")
 	)
 	(label "BATT_LED"
 		(at 17.78 96.52 90)
