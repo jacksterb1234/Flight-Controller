@@ -275,6 +275,10 @@
         ""
       ],
       [
+        "pin_to_pin|2095500|2476500|859f86de-82ea-4ef6-9e16-0aff4c7fe4b5|8a974d02-c046-4798-a53d-a55b6cdc046b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b",
+        ""
+      ],
+      [
         "pin_to_pin|2501900|1092200|c913729b-a82f-481d-8e8f-24662b24b34f|76fe39f1-087a-4388-8443-0e870f058b33|||",
         ""
       ],
@@ -308,6 +312,22 @@
       ],
       [
         "power_pin_not_driven|1206500|1409700|2f790094-af3b-488f-8dd7-8123fb67489a|00000000-0000-0000-0000-000000000000|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1600200|990600|f22a3ecd-0454-446d-96de-1e81c25f1dc4|00000000-0000-0000-0000-000000000000|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1676400|952500|e42b3e16-4e70-41be-8c1f-95a79d098bf2|00000000-0000-0000-0000-000000000000|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2286000|1409700|ee60e145-5eed-48bb-8a2e-d5e7c9d5435e|00000000-0000-0000-0000-000000000000|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2336800|1409700|2f790094-af3b-488f-8dd7-8123fb67489a|00000000-0000-0000-0000-000000000000|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b|",
         ""
       ],
       [
@@ -716,7 +736,7 @@
         "uuid": "a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d"
       }
     ],
-    "used_designators": "L2,D7,D9-10,#PWR35,#PWR37-42,#PWR61,#PWR86-92,C5,C10,C12-13,C34-37,J2-3,#FLG4-5,R9,R14,R18,R20,U8",
+    "used_designators": "L2,D7,D9-10,#PWR16,#PWR35,#PWR37-42,#PWR61,#PWR86-92,C5,C10,C12-13,C34-37,J2-4,#FLG4-5,R9,R14,R18,R20,U8",
     "variants": [
       {
         "name": "Backpack"

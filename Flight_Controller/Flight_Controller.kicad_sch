@@ -87,6 +87,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 153.67) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ca36fb-1bcc-4d3c-b6ca-9bea46f47f7b")
+	)
+	(wire
+		(pts
 			(xy 54.61 143.51) (xy 93.98 143.51)
 		)
 		(stroke
@@ -10715,6 +10725,16 @@
 				(justify right)
 			)
 		)
+		(pin "+9V" input
+			(at 54.61 153.67 0)
+			(uuid "b722c34d-8cd1-4e4b-82d9-3db6752c43d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Flight_Controller"
 				(path "/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d"
@@ -10944,6 +10964,16 @@
 		(pin "VIDEO_OUT" output
 			(at 93.98 151.13 180)
 			(uuid "e9922753-9879-45cc-85e8-8c9af0715f64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+9V" output
+			(at 93.98 153.67 180)
+			(uuid "668b728c-8982-4d51-834b-1f183cf218f7")
 			(effects
 				(font
 					(size 1.27 1.27)

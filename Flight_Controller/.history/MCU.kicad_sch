@@ -10092,6 +10092,16 @@
 		)
 		(uuid "994c1601-1428-4db8-9ece-37b2e6fb3e42")
 	)
+	(text "USART_6"
+		(exclude_from_sim no)
+		(at 111.76 154.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8aff4d8-4668-4afc-8b51-237cd37e16d4")
+	)
 	(text "DEBUG CONNECTORS"
 		(exclude_from_sim no)
 		(at 236.728 21.844 0)
@@ -10383,10 +10393,6 @@
 	(no_connect
 		(at 52.07 86.36)
 		(uuid "3f5fa240-49d0-49a1-99a7-77086e2b36d2")
-	)
-	(no_connect
-		(at 97.79 154.94)
-		(uuid "425fdd97-0507-4abb-9471-7246ae8370ea")
 	)
 	(no_connect
 		(at 97.79 71.12)
@@ -11352,6 +11358,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 154.94) (xy 105.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1b89ce-f52b-4eaf-91bb-7f8ea370f29c")
+	)
+	(wire
+		(pts
 			(xy 107.95 109.22) (xy 97.79 109.22)
 		)
 		(stroke
@@ -11909,6 +11925,16 @@
 			(justify right bottom)
 		)
 		(uuid "551b3e85-8cf8-4d07-95e8-1b92bb9023b2")
+	)
+	(label "SBUS"
+		(at 105.41 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cdcfaba-a7a7-4513-98fe-7b6c7596252d")
 	)
 	(label "VTX_RX"
 		(at 111.76 53.34 180)
@@ -12927,7 +12953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Flight_Controller:SW_TS-1088-AR02016"
 			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13246,7 +13272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 160.02 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14978,7 +15004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 158.75 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17785,7 +17811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal"
 			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21740,7 +21766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 161.29 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21825,7 +21851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 158.75 127 0)
 			(hide yes)
 			(show_name no)
