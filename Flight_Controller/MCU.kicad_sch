@@ -12036,7 +12036,7 @@
 		)
 		(uuid "780535a8-5b71-4fd8-b201-a8f46f7a9474")
 	)
-	(label "3V3_LED"
+	(label "MCU_LED"
 		(at 120.65 127 0)
 		(effects
 			(font

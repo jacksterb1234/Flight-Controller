@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.8
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -736,7 +736,7 @@
         "uuid": "a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d"
       }
     ],
-    "used_designators": "L2,D7,D9-10,#PWR16,#PWR35,#PWR37-42,#PWR61,#PWR86-92,C5,C10,C12-13,C34-37,J2-4,#FLG4-5,R9,R14,R18,R20,U8",
+    "used_designators": "",
     "variants": [
       {
         "name": "Backpack"

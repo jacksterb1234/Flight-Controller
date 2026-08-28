@@ -11579,7 +11579,7 @@
 		)
 		(uuid "133a544e-7fa1-4f92-8722-9fbaf7531578")
 	)
-	(label "FB"
+	(label "FB_5V"
 		(at 81.28 104.14 0)
 		(effects
 			(font
@@ -11589,7 +11589,7 @@
 		)
 		(uuid "17ff38cf-c983-49d8-a234-6d2e0cacce2e")
 	)
-	(label "SW"
+	(label "SW_9V"
 		(at 74.93 137.16 0)
 		(effects
 			(font
@@ -11619,7 +11619,7 @@
 		)
 		(uuid "432e4578-2271-4161-9aad-d6445759a6e4")
 	)
-	(label "SW"
+	(label "SW_5V"
 		(at 74.93 93.98 0)
 		(effects
 			(font
@@ -11669,7 +11669,7 @@
 		)
 		(uuid "9df7f2ed-f8e0-44e2-8a3c-36f4133eb770")
 	)
-	(label "CB"
+	(label "CB_5V"
 		(at 74.93 88.9 0)
 		(effects
 			(font
@@ -11679,7 +11679,7 @@
 		)
 		(uuid "a74591a4-4a21-4759-96dc-fbddd9f25015")
 	)
-	(label "FB"
+	(label "FB_9V"
 		(at 81.28 147.32 0)
 		(effects
 			(font
@@ -11699,7 +11699,7 @@
 		)
 		(uuid "ce9329d7-285b-445e-90d4-d1c55cb3504f")
 	)
-	(label "CB"
+	(label "CB_9V"
 		(at 74.93 132.08 0)
 		(effects
 			(font

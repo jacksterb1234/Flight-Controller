@@ -9676,12 +9676,6 @@
 		(uuid "09cdaaf1-4a13-4726-a6df-839531a2ac4b")
 	)
 	(junction
-		(at 25.4 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ce79d9f-3dfd-4b5d-90b4-910b47b00925")
-	)
-	(junction
 		(at 115.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9758,12 +9752,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62165682-eb3c-4d96-ab42-0a8a10a8ca7c")
-	)
-	(junction
-		(at 34.29 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62cf7701-c937-4ece-af6e-59d2fb703e43")
 	)
 	(junction
 		(at 104.14 27.94)
@@ -9874,18 +9862,6 @@
 		(uuid "a6442929-4cb5-4a0f-b3da-319c13ebd1e5")
 	)
 	(junction
-		(at 41.91 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a887244b-4715-47a7-b7ca-938312446bc3")
-	)
-	(junction
-		(at 41.91 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad1028cf-9514-4cf5-8dcf-252ab42008eb")
-	)
-	(junction
 		(at 114.3 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9934,6 +9910,12 @@
 		(uuid "c8190b21-258c-4a43-ba23-8900edf4630d")
 	)
 	(junction
+		(at 34.29 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81ad857-a335-4ef5-b5ce-8359b275e80e")
+	)
+	(junction
 		(at 41.91 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9962,6 +9944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcc24fda-9f25-4a95-bfaa-1734fc947c3f")
+	)
+	(junction
+		(at 25.4 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e419bc-c774-4c4f-9f3d-3684aea307c8")
 	)
 	(junction
 		(at 34.29 106.68)
@@ -10423,7 +10411,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 132.08) (xy 41.91 132.08)
+			(xy 34.29 132.08) (xy 44.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10440,16 +10428,6 @@
 			(type default)
 		)
 		(uuid "3aa7af14-1038-46ee-abad-1b662d65b138")
-	)
-	(wire
-		(pts
-			(xy 34.29 88.9) (xy 25.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb33733-d8c3-4af3-b475-63e8ce02a39e")
 	)
 	(wire
 		(pts
@@ -11073,16 +11051,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 132.08) (xy 41.91 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a754043b-b915-4086-88cc-408da7516536")
-	)
-	(wire
-		(pts
 			(xy 101.6 96.52) (xy 107.95 96.52)
 		)
 		(stroke
@@ -11110,16 +11078,6 @@
 			(type default)
 		)
 		(uuid "aba21f55-2bf6-49eb-9660-3d09099fd444")
-	)
-	(wire
-		(pts
-			(xy 41.91 132.08) (xy 44.45 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abfb1080-9150-414b-9671-fceb4debf2c6")
 	)
 	(wire
 		(pts
@@ -11233,6 +11191,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 88.9) (xy 41.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5addffb-0043-4a88-8aae-6246b0c5ce4e")
+	)
+	(wire
+		(pts
 			(xy 41.91 106.68) (xy 34.29 106.68)
 		)
 		(stroke
@@ -11260,16 +11228,6 @@
 			(type default)
 		)
 		(uuid "cbdefb57-78f1-4cbc-afef-2264ee2b0449")
-	)
-	(wire
-		(pts
-			(xy 34.29 88.9) (xy 41.91 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc29e153-6085-4b70-96b4-6c219a5589da")
 	)
 	(wire
 		(pts
@@ -11583,13 +11541,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 149.86) (xy 34.29 149.86)
+			(xy 80.01 180.34) (xy 80.01 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdc66c61-9b9f-4372-b22c-e77ca2ed22dc")
+		(uuid "fae1bb29-0d75-43b3-b22d-764cb7b48487")
 	)
 	(label "XFB"
 		(at 187.96 113.03 0)
@@ -11621,7 +11579,7 @@
 		)
 		(uuid "133a544e-7fa1-4f92-8722-9fbaf7531578")
 	)
-	(label "FB"
+	(label "FB_5V"
 		(at 81.28 104.14 0)
 		(effects
 			(font
@@ -11631,7 +11589,7 @@
 		)
 		(uuid "17ff38cf-c983-49d8-a234-6d2e0cacce2e")
 	)
-	(label "SW"
+	(label "SW_9V"
 		(at 74.93 137.16 0)
 		(effects
 			(font
@@ -11661,7 +11619,7 @@
 		)
 		(uuid "432e4578-2271-4161-9aad-d6445759a6e4")
 	)
-	(label "SW"
+	(label "SW_5V"
 		(at 74.93 93.98 0)
 		(effects
 			(font
@@ -11692,7 +11650,7 @@
 		(uuid "8422560a-8f95-4598-b806-d6c38aa7e3c9")
 	)
 	(label "LDO_LED"
-		(at 80.01 179.07 0)
+		(at 80.01 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11711,7 +11669,7 @@
 		)
 		(uuid "9df7f2ed-f8e0-44e2-8a3c-36f4133eb770")
 	)
-	(label "CB"
+	(label "CB_5V"
 		(at 74.93 88.9 0)
 		(effects
 			(font
@@ -11721,7 +11679,7 @@
 		)
 		(uuid "a74591a4-4a21-4759-96dc-fbddd9f25015")
 	)
-	(label "FB"
+	(label "FB_9V"
 		(at 81.28 147.32 0)
 		(effects
 			(font
@@ -11741,7 +11699,7 @@
 		)
 		(uuid "ce9329d7-285b-445e-90d4-d1c55cb3504f")
 	)
-	(label "CB"
+	(label "CB_9V"
 		(at 74.93 132.08 0)
 		(effects
 			(font
@@ -15449,7 +15407,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 186.69 0)
+		(at 80.01 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15459,7 +15417,7 @@
 		(dnp no)
 		(uuid "5273d7d7-2df6-4a46-8b27-82d7d5489b3e")
 		(property "Reference" "#PWR034"
-			(at 80.01 193.04 0)
+			(at 80.01 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +15428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.264 190.246 0)
+			(at 80.264 191.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15480,7 +15438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 186.69 0)
+			(at 80.01 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15491,7 +15449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 186.69 0)
+			(at 80.01 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15502,7 +15460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 186.69 0)
+			(at 80.01 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15833,84 +15791,6 @@
 			(project "Flight_Controller"
 				(path "/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 25.4 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f191396-53da-4eee-9837-13acdd993b39")
-		(property "Reference" "#PWR016"
-			(at 25.4 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 25.4 84.7669 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 25.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3473d0d-d52e-4d83-9a3f-a0299783bae3")
-		)
-		(instances
-			(project "Flight_Controller"
-				(path "/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -24506,7 +24386,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,150Ω")
-		(at 80.01 182.88 180)
+		(at 80.01 184.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24517,7 +24397,7 @@
 		(fields_autoplaced yes)
 		(uuid "da232d05-809d-405f-bf35-980c0fae9547")
 		(property "Reference" "R17"
-			(at 77.2739 182.88 90)
+			(at 77.2739 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24527,7 +24407,7 @@
 			)
 		)
 		(property "Value" "150Ω"
-			(at 80.01 182.88 90)
+			(at 80.01 184.15 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -24537,7 +24417,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 81.788 182.88 90)
+			(at 81.788 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24548,7 +24428,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24559,7 +24439,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 150Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24570,7 +24450,7 @@
 			)
 		)
 		(property "LCSC" "C22808"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24581,7 +24461,7 @@
 			)
 		)
 		(property "Stock" "598005"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24592,7 +24472,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24603,7 +24483,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24614,7 +24494,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24625,7 +24505,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24636,7 +24516,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24647,7 +24527,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24658,7 +24538,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24669,7 +24549,7 @@
 			)
 		)
 		(property "Part" "0603WAF1500T5E"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24680,7 +24560,7 @@
 			)
 		)
 		(property "Resistance" "150Ω"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24691,7 +24571,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24702,7 +24582,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24713,7 +24593,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24724,7 +24604,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24735,7 +24615,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24746,7 +24626,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 80.01 182.88 0)
+			(at 80.01 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25412,6 +25292,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 25.4 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf00e6e-abb5-427f-bfb7-00ff9669b81d")
+		(property "Reference" "#PWR016"
+			(at 25.4 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 25.4 84.7669 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d446e699-87b7-4a0c-b487-35cd335fa81e")
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/a5ad4b24-d019-4f03-a9b3-a1b3a93a4b2d/76d388df-ef1f-4937-b7ab-e6d108c8cd4b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 265.43 96.52 0)
 		(unit 1)
@@ -25806,7 +25764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 149.86 0)
+		(at 34.29 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25817,7 +25775,7 @@
 		(fields_autoplaced yes)
 		(uuid "e004ef54-0653-4f72-8aaf-3f44cc798834")
 		(property "Reference" "#PWR038"
-			(at 41.91 156.21 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25828,7 +25786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 153.9931 0)
+			(at 34.29 153.9931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25838,7 +25796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 149.86 0)
+			(at 34.29 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25849,7 +25807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 149.86 0)
+			(at 34.29 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25860,7 +25818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 149.86 0)
+			(at 34.29 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
