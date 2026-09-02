@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Flight_Controller") (type "KiCad") (uri "${KIPRJMOD}/Flight_Controller.kicad_sym") (options "") (descr ""))
+	(lib (name "Flight_Controller-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Flight_Controller-eagle-import.kicad_sym") (options "") (descr ""))
 )

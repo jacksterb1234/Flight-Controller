@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 54.61 153.67) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e9324f-5712-4c9f-a421-7e33a51070ae")
+	)
+	(wire
+		(pts
 			(xy 54.61 120.65) (xy 93.98 120.65)
 		)
 		(stroke
@@ -17,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 151.13) (xy 93.98 151.13)
+			(xy 54.61 143.51) (xy 93.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 146.05) (xy 93.98 146.05)
+			(xy 54.61 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -37,23 +47,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.81) (xy 93.98 130.81)
+			(xy 54.61 140.97) (xy 93.98 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25bbb953-1055-4a78-8504-ba9d2368933c")
-	)
-	(wire
-		(pts
-			(xy 54.61 138.43) (xy 93.98 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "389e2c53-c443-48d1-8af7-4433ab3c83c3")
+		(uuid "3cd36f94-5c2c-4db5-adc8-467f21217a78")
 	)
 	(wire
 		(pts
@@ -63,7 +63,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3cd36f94-5c2c-4db5-adc8-467f21217a78")
+		(uuid "3d43f102-e3f8-4530-b420-09c0c6f3ed36")
 	)
 	(wire
 		(pts
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 153.67) (xy 93.98 153.67)
+			(xy 54.61 146.05) (xy 93.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 143.51) (xy 93.98 143.51)
+			(xy 54.61 135.89) (xy 93.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -127,23 +127,33 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 156.21) (xy 93.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6ab545-9542-46fb-a6ac-d2254f1e3205")
+	)
+	(wire
+		(pts
 			(xy 54.61 133.35) (xy 93.98 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "942d6f83-6b46-4c4e-9c96-c1e7f179e2b8")
+		(uuid "b58eaad4-ec99-41e4-a6df-8ed01d833d9f")
 	)
 	(wire
 		(pts
-			(xy 54.61 140.97) (xy 93.98 140.97)
+			(xy 54.61 158.75) (xy 93.98 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b58eaad4-ec99-41e4-a6df-8ed01d833d9f")
+		(uuid "c6c77293-ae3a-49e9-89d3-7be712d80a19")
 	)
 	(wire
 		(pts
@@ -167,6 +177,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 151.13) (xy 93.98 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3defd94-0f65-49a5-b831-35c1443efd7d")
+	)
+	(wire
+		(pts
 			(xy 54.61 123.19) (xy 93.98 123.19)
 		)
 		(stroke
@@ -177,7 +197,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 135.89) (xy 93.98 135.89)
+			(xy 54.61 130.81) (xy 93.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10635,28 +10655,8 @@
 				(justify right)
 			)
 		)
-		(pin "LPS_SPI_CS" output
-			(at 54.61 130.81 0)
-			(uuid "08aef78c-7453-4768-a070-1259d61e7da7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSD_LOS" input
-			(at 54.61 133.35 0)
-			(uuid "2abdd2c2-fa8d-4624-9785-ab2a2d279c00")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "OSD_SPI_CS" output
-			(at 54.61 135.89 0)
+			(at 54.61 130.81 0)
 			(uuid "020461f5-ba01-446c-a200-c803723722b6")
 			(effects
 				(font
@@ -10665,18 +10665,8 @@
 				(justify right)
 			)
 		)
-		(pin "OSD_VS" input
-			(at 54.61 138.43 0)
-			(uuid "ed077bf1-77a1-49f1-94c5-23b7bc190bde")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI_SCK" output
-			(at 54.61 140.97 0)
+			(at 54.61 133.35 0)
 			(uuid "eda39dbe-65a3-4103-828a-6e931af44c28")
 			(effects
 				(font
@@ -10686,7 +10676,7 @@
 			)
 		)
 		(pin "SPI_SDI" output
-			(at 54.61 143.51 0)
+			(at 54.61 135.89 0)
 			(uuid "a9461536-794a-4207-b112-3264fcfee2bc")
 			(effects
 				(font
@@ -10696,7 +10686,7 @@
 			)
 		)
 		(pin "SPI_SDO" input
-			(at 54.61 146.05 0)
+			(at 54.61 138.43 0)
 			(uuid "3ea49194-31b7-44b5-b851-a8e804f175eb")
 			(effects
 				(font
@@ -10706,7 +10696,7 @@
 			)
 		)
 		(pin "VIDEO_IN" output
-			(at 54.61 148.59 0)
+			(at 54.61 140.97 0)
 			(uuid "5e2d9acb-0316-481e-ba73-9cc83959d005")
 			(effects
 				(font
@@ -10716,7 +10706,7 @@
 			)
 		)
 		(pin "VIDEO_OUT" input
-			(at 54.61 151.13 0)
+			(at 54.61 143.51 0)
 			(uuid "15ae0237-08f0-4134-a400-5d0475eb2555")
 			(effects
 				(font
@@ -10726,8 +10716,58 @@
 			)
 		)
 		(pin "+9V" input
-			(at 54.61 153.67 0)
+			(at 54.61 146.05 0)
 			(uuid "b722c34d-8cd1-4e4b-82d9-3db6752c43d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL1" output
+			(at 54.61 148.59 0)
+			(uuid "eeda120c-2b45-444f-9e83-0bc1d6c997a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA1" bidirectional
+			(at 54.61 151.13 0)
+			(uuid "c286cae6-0fbc-4382-9019-2b444df57fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSD_SPI_SCK" output
+			(at 54.61 153.67 0)
+			(uuid "d3242d86-4de2-4ab2-b711-5ae15b33d6ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSD_SPI_SDI" output
+			(at 54.61 156.21 0)
+			(uuid "335f358b-3a0b-48de-a1fb-70b10bc1d715")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSD_SPI_SDO" input
+			(at 54.61 158.75 0)
+			(uuid "103d48d3-6a65-4033-ba19-4f56264bb3f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,28 +10921,8 @@
 				(justify left)
 			)
 		)
-		(pin "LPS_SPI_CS" input
-			(at 93.98 130.81 180)
-			(uuid "fd0cbc41-8c9e-447b-883a-94a3972b6604")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OSD_LOS" output
-			(at 93.98 133.35 180)
-			(uuid "b3aef86c-2b6b-42b4-b1da-e783df2ca3b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "OSD_SPI_CS" input
-			(at 93.98 135.89 180)
+			(at 93.98 130.81 180)
 			(uuid "d53083be-70c9-44b9-9a8e-5ae9ee7bfe5c")
 			(effects
 				(font
@@ -10911,18 +10931,8 @@
 				(justify left)
 			)
 		)
-		(pin "OSD_VS" output
-			(at 93.98 138.43 180)
-			(uuid "197ef92e-f5ec-4d00-9779-a398780e4e35")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI_SCK" input
-			(at 93.98 140.97 180)
+			(at 93.98 133.35 180)
 			(uuid "eddc0002-d5f0-44e2-8e93-61b9e46d3015")
 			(effects
 				(font
@@ -10932,7 +10942,7 @@
 			)
 		)
 		(pin "SPI_SDI" input
-			(at 93.98 143.51 180)
+			(at 93.98 135.89 180)
 			(uuid "7cb7e73f-614b-4e3d-ad72-2e12898d567d")
 			(effects
 				(font
@@ -10942,7 +10952,7 @@
 			)
 		)
 		(pin "SPI_SDO" output
-			(at 93.98 146.05 180)
+			(at 93.98 138.43 180)
 			(uuid "89e2e1ad-ee7e-4d2b-9e30-fe3cf4ae43ee")
 			(effects
 				(font
@@ -10952,7 +10962,7 @@
 			)
 		)
 		(pin "VIDEO_IN" input
-			(at 93.98 148.59 180)
+			(at 93.98 140.97 180)
 			(uuid "a13ac1f6-0ba7-4787-9913-444f63e5c513")
 			(effects
 				(font
@@ -10962,7 +10972,7 @@
 			)
 		)
 		(pin "VIDEO_OUT" output
-			(at 93.98 151.13 180)
+			(at 93.98 143.51 180)
 			(uuid "e9922753-9879-45cc-85e8-8c9af0715f64")
 			(effects
 				(font
@@ -10972,8 +10982,58 @@
 			)
 		)
 		(pin "+9V" output
-			(at 93.98 153.67 180)
+			(at 93.98 146.05 180)
 			(uuid "668b728c-8982-4d51-834b-1f183cf218f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL1" input
+			(at 93.98 148.59 180)
+			(uuid "692a444c-3576-4cc1-a3ec-02a7981679b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA1" bidirectional
+			(at 93.98 151.13 180)
+			(uuid "41028992-cc97-4dcb-a6d6-1e256bcd2306")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSD_SPI_SCK" input
+			(at 93.98 153.67 180)
+			(uuid "2332f412-f654-453b-b132-37fb77e0c8e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSD_SPI_SDI" input
+			(at 93.98 156.21 180)
+			(uuid "3ecbf7c4-1edc-4651-b3d5-cd7e9590411b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSD_SPI_SDO" output
+			(at 93.98 158.75 180)
+			(uuid "51bcd656-c47b-4550-8507-e6cf375ce722")
 			(effects
 				(font
 					(size 1.27 1.27)
